@@ -1,0 +1,8 @@
+<% @charts.each do |c| %>
+<div class="entry">
+  <h3><a href="/charts/show/<%=c.id%>"><%=c.title%></a></h3>
+  <%=c.description%>
+
+  <p class="info">Posted by tuan on Nov 16, 2011</p>
+</div>
+<% end %>

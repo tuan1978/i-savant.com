@@ -1,0 +1,283 @@
+a {
+  color: #676767;
+}
+a:visited {
+  color: #cc9;
+}
+a:hover, a:visited:hover {
+  color: #ff7e38;
+  text-decoration: none;
+}
+body {
+  background-color: #FFFFFF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  font-weight: normal;
+}
+h3 {
+  color: #676767;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 180%;
+  font-weight: normal;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+.hidden {
+  display: none;
+}
+.clear {
+  clear: both;
+}
+#page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 730px;
+  text-align: left;
+}
+#header {
+  background-color: #FFFFFF
+  color: white;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  padding: 0;
+  padding-bottom: 4px;
+  text-align: center;
+}
+#site-title {
+  color: white;
+  font-size: 325%;
+}
+#site-title a, #site-title a:visited {
+  color: white;
+  text-decoration: none;
+}
+#site-title a:hover, #site-title a:hover {
+  color: white;
+  text-decoration: underline;
+}
+#site-subtitle {
+  font-style: italic;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+#main {
+  background-color: white;
+  float: left;
+  width: 100%;
+}
+#content-wrapper {
+  float: left;
+  width: 500px;
+}
+#content {
+  padding: 10px;
+  border-right: 1px dotted #a3a39c;
+}
+#content h1 {
+  margin-top: 0;
+}
+#content h3 a {
+  border-bottom: 1px dotted #a3a39c;
+  display: block;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+#content p {
+  line-height: 160%;
+}
+#content .info {
+  color: #b0af99;
+  font-size: 80%;
+  margin-top: 1.5em;
+}
+#content .entry .info {
+  margin-top: 1em;
+}
+#sidebar-wrapper {
+  float: right;
+  width: 225px;
+}
+#sidebar {
+  background-color: #f0f0f0;
+  font-size: 90%;
+  padding: 15px;
+  padding-top: 1px;
+}
+#sidebar h3 {
+  font-size: 160%;
+}
+#sidebar p {
+  line-height: 140%;
+}
+#sidebar ul {
+  margin-left: 1.5em;
+  padding: 0;
+}
+#sidebar li {
+  margin-bottom: .25em;
+}
+#footer {
+  color: #676767;
+  float: left;
+  font-size: 90%;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+input, textarea, select{
+	border:1;
+	margin:3px;
+	padding:0px 3px;
+	font:90%/180% "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+	color:#666666;
+
+}
+
+label{
+	float:left;
+	margin:5px;
+	width:100px;
+	display:block;
+}
+
+.clearAll{
+	clear:both;
+}
+
+/***** Shadows that wrap around ALL elements ***********/
+.frmShdwTopLt{
+	float:left;
+	background:url(/images/shadowUpperLeft.gif) top left no-repeat;
+}
+
+.frmShdwBottomRt{
+	float:left;
+	background:url(/images/shadowLowerRight.gif) bottom right no-repeat;
+}
+
+.frmShdwBottomLt{
+	float:left;
+	background:transparent url(/images/shadowBottomLeft.gif) bottom left no-repeat;
+}
+
+.frmShdwTopRt{
+	float:left;
+	background:transparent url(/images/shadowTopRight.gif) top right no-repeat;
+}
+
+
+/***** styles specific to the CHECKBOX **********/
+.frmShdwCheck{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+	.frmShdwCheck img{
+		border:0;
+		margin:0;
+	}
+
+
+/***** styles specific to the RADIO BUTTONS **********/
+.frmShdwRadio{
+	float:left;
+	margin:0;
+}
+
+	.frmShdwRadio img{
+		border:0;
+		margin:0;
+	}
+
+
+/***** styles specific to the SUBMIT BUTTONS **********/
+.frmShdwSubmit{
+	border:0;
+	background:#f7f7f7 !important;
+	background:transparent;
+	float:left;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+	.frmShdwSubmit:hover{
+		color:#000000;
+	}
+
+
+/***** styles specific to the SELECT BOX **********/
+.frmShdwSelectDropChosen{
+	margin:3px 3px 3px 5px;
+	padding: 0 0 0 2px !important;
+	padding: 0 0 3px 2px;
+	font-size:.9em;
+	float:left;
+	border-right:1px solid #cccccc;
+	border-left:1px solid #ffffff !important;
+	border-left:0;
+	display:block;
+	cursor:pointer;
+	/*some stuff for IE*/
+	color:#666666;
+	text-decoration:none;
+}
+
+.frmShdwSelectDropShown{
+	margin:3px 3px 3px 5px;
+	padding: 0 0 0 2px;
+	font-size:.9em;
+	float:left;
+	border-right:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	position:absolute;
+	background:#ffffff;
+}
+
+.frmShdwSelectDrop{
+	display:none;
+}
+
+.fakeSelectImg{
+	border:0;
+	margin:5px 5px 0px 0px;
+}
+
+.frmShdwSelectDropShown a{
+	display:block;
+	margin:0;
+	padding:0px;
+	border-bottom:1px dashed #ffffff;
+	text-decoration:none;
+	color:#666666;
+}
+
+.frmShdwSelectDropShown a.selected{
+    background:#f7f7f7;
+    color:#000000;
+    border-bottom:1px dashed #cccccc;
+}
+
+.frmShdwSelectDropShown a.selected:after{
+    content:" <<";
+}
+
+
+.frmShdwSelectDropShown a:hover{
+    background:#f7f7f7;
+    border-bottom:1px dashed #cccccc;
+    text-decoration:none;
+    color:#666666;
+}
+
+.frmShdwSelectDropShown a:hover:after{
+    content:" <<";
+}
+

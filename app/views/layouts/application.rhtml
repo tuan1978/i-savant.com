@@ -1,0 +1,43 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <title>Home Page</title>
+    <link href="/rss/" rel="alternate" title="RSS" type="application/rss+xml" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+<img src="/images/header.gif">
+</div>
+<hr class="hidden" />
+
+      <div id="main">
+        <div id="content-wrapper">
+          <div id="content">
+<%= yield %>
+          </div>
+        </div>
+        <div id="sidebar-wrapper">
+          <div id="sidebar">
+            <h3>About Us</h3>
+<p>i-Savant is a one-man tech monstrosity. <a href="/about/">More&#8230;</a></p>
+<h3>Favorite Sites</h3>
+<ul>
+	<li><a href="http://www.intellectionsoftware.com">Intellection Software</a></li>
+</ul>
+<h3>Recent Entries</h3>
+<p><a href="/articles/">Archives&#8230;</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+  <p>Copyright &copy; 2011, i-Savant. All rights reserved.
+</div>
+
+    </div>
+  </body>
+</html>
