@@ -150,9 +150,9 @@ const SkillsAndServices = () => {
       icon: Database,
       color: "bg-savant-blue",
       shortDesc: "Designing scalable, future-proof data foundations.",
-      longDesc: "I architect next-generation data ecosystems that unify intelligence and infrastructure. My approach leverages cloud-native paradigms and decentralized governance to transform complex data landscapes into agile, high-performance assets for the AI-first enterprise.",
+      longDesc: "We architect next-generation data ecosystems that unify intelligence and infrastructure. Our approach leverages cloud-native paradigms and decentralized governance to transform complex data landscapes into agile, high-performance assets for the AI-first enterprise.",
       services: ["Lakehouse Design (Databricks/BigQuery)", "Data Mesh Strategy", "Medallion Architecture Implementation", "Enterprise Data Modeling"],
-      application: "I apply this by assessing current bottlenecks and designing a target state that supports both BI and AI workloads seamlessly."
+      application: "We apply this by assessing current bottlenecks and designing a target state that supports both BI and AI workloads seamlessly."
     },
     {
       id: 2,
@@ -160,9 +160,9 @@ const SkillsAndServices = () => {
       icon: BrainCircuit,
       color: "bg-savant-pink",
       shortDesc: "Building autonomous agents and complex AI workflows.",
-      longDesc: "I specialize in the next generation of AI: Agentic systems. This involves moving beyond simple chat interfaces to autonomous agents that can reason, use tools, and collaborate to solve complex multi-step problems.",
+      longDesc: "We specialize in the next generation of AI: Agentic systems. This involves moving beyond simple chat interfaces to autonomous agents that can reason, use tools, and collaborate to solve complex multi-step problems.",
       services: ["Agentic Architecture & Orchestration", "Tool Design & MCP Integration", "Advanced Prompt Engineering", "Dynamic Context Management"],
-      application: "I implement robust orchestration layers that allow AI agents to interact with external systems securely and reliably while maintaining long-term context."
+      application: "We implement robust orchestration layers that allow AI agents to interact with external systems securely and reliably while maintaining long-term context."
     },
     {
       id: 3,
@@ -170,9 +170,9 @@ const SkillsAndServices = () => {
       icon: Cloud,
       color: "bg-savant-cyan",
       shortDesc: "Leveraging the power of distributed infrastructure.",
-      longDesc: "Cloud-native is the default. I help organizations navigate the complexities of Azure and GCP, ensuring their infrastructure is secure, scalable, and cost-effective.",
+      longDesc: "Cloud-native is the default. We help organizations navigate the complexities of Azure and GCP, ensuring their infrastructure is secure, scalable, and cost-effective.",
       services: ["Cloud Migration Strategy", "Infrastructure as Code (Terraform/Pulumi)", "Serverless & Containerized Apps", "Cloud Cost Optimization"],
-      application: "I use cloud-native services to build highly available systems that scale automatically with demand, reducing operational overhead."
+      application: "We use cloud-native services to build highly available systems that scale automatically with demand, reducing operational overhead."
     },
     {
       id: 4,
@@ -180,9 +180,9 @@ const SkillsAndServices = () => {
       icon: Workflow,
       color: "bg-savant-orange",
       shortDesc: "The plumbing that powers data-driven decisions.",
-      longDesc: "Data is only useful if it's clean, timely, and accessible. I build robust pipelines that handle massive volumes of data with high reliability and observability.",
+      longDesc: "Data is only useful if it's clean, timely, and accessible. We build robust pipelines that handle massive volumes of data with high reliability and observability.",
       services: ["ETL/ELT Orchestration (Airflow/dbt)", "Real-time Streaming (Kafka/Flink)", "Data Quality & Observability", "Schema Evolution Management"],
-      application: "I implement automated testing and monitoring within pipelines to ensure that downstream consumers always have high-fidelity data."
+      application: "We implement automated testing and monitoring within pipelines to ensure that downstream consumers always have high-fidelity data."
     },
     {
       id: 5,
@@ -190,9 +190,9 @@ const SkillsAndServices = () => {
       icon: Shield,
       color: "bg-slate-700",
       shortDesc: "Strategic guidance for the data-driven enterprise.",
-      longDesc: "Technology is only half the battle. I provide the strategic oversight needed to align technical initiatives with business goals and organizational structure.",
+      longDesc: "Technology is only half the battle. We provide the strategic oversight needed to align technical initiatives with business goals and organizational structure.",
       services: ["Data Strategy Roadmaps", "Technical Due Diligence", "Team Mentorship & Upskilling", "Vendor Selection & Evaluation"],
-      application: "I work closely with stakeholders to define clear KPIs and ensure that every technical investment has a measurable impact on the bottom line."
+      application: "We work closely with stakeholders to define clear KPIs and ensure that every technical investment has a measurable impact on the bottom line."
     }
   ];
 
